@@ -1,0 +1,113 @@
+/* ========================================
+     Template Name: Minimo || HTML TEMPLATE
+     Author: Md Asaduzzaman
+     Version: 1.0.0
+     Created: 28 January 2021
+     File Description: Main css file of the template 
+     font-family: 'Ubuntu', sans-serif;
+
+
+     ============================================*/
+
+     /* ========================================
+     01.Generel
+     ============================================*/
+     @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+     body{
+          margin: 0;
+          padding: 0;
+          font-family: 'Playfair Display', serif;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          color: #626262;
+          box-sizing: border-box;
+     }
+     h1,
+     h2,
+     h3,
+     h4,
+     h5,
+     h6{
+          font-family: 'Playfair Display', serif;
+          font-weight: 400;
+          font-size: 30px;
+          margin: 0;
+     }
+     p{
+          font-family: 'Playfair Display', serif;
+          font-weight: 400;
+          font-size: 14px;
+          margin: 0; 
+          color: #626262; 
+     }
+     a{
+          color: #626262;  
+          text-decoration: none;
+     }
+
+
+ /* ========================================
+    header style start here
+     ============================================*/  
+
+.container{
+     width: 90%;
+     margin: 0 auto;
+     overflow: hidden;
+     margin-top: 20px;
+}  
+.logo a{
+     font-family: 'Inconsolata', monospace;
+     font-weight: 400;
+     font-size: 30px;
+     text-transform: uppercase;
+     color: #000000;
+     letter-spacing: 5px;
+
+}
+.logo{
+     width: 30%;
+     float: left;
+}  
+nav ul{
+     list-style: none;
+     float: right;
+     margin: 0;
+} 
+.menu{
+     width: 70%;
+     float: right;
+}
+nav ul li{
+     float: left;
+}
+nav ul li a{
+     padding: 0 60px;
+     
+}
+nav ul li :last-child a{
+     padding-right: 0;
+}
+
+nav ul li a:hover{
+     color: #000000;
+}
+
+
+
+     /* ========================================
+    banner style start here
+     ============================================*/
+.banner{
+     background-image:url(../images/top-image.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     min-height: 800px;
+}     
+
+
+
+
+
